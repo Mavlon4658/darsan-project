@@ -181,31 +181,31 @@ img {
     }
 
     .modal_content {
-        padding: 50px 50px 50px 60px;
+        padding: 40px 40px 40px 50px;
         width: 538px;
 
         h3 {
             color: rgb(255, 255, 255);
             font-family: 'Roboto', sans-serif;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
-            line-height: 56px;
+            line-height: 50px;
             letter-spacing: 0%;
-            margin-bottom: 30px;
+            margin-bottom: 26px;
         }
 
         ul {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin-bottom: 45px;
+            margin-bottom: 35px;
 
             li {
                 color: rgb(255, 255, 255);
                 font-family: 'Roboto', sans-serif;
-                font-size: 28px;
+                font-size: 20px;
                 font-weight: 300;
-                line-height: 35px;
+                line-height: 30px;
                 letter-spacing: 10%;
             }
         }
@@ -213,7 +213,7 @@ img {
         .modal_form {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 15px;
             width: 300px;
 
             input {
@@ -222,9 +222,9 @@ img {
                 border: none;
                 color: rgb(153, 156, 153);
                 font-family: 'Roboto', sans-serif;
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 300;
-                line-height: 26px;
+                line-height: 22px;
                 letter-spacing: 0%;
                 padding-bottom: 15px;
                 border-bottom: 1px solid rgb(153, 156, 153);
@@ -244,9 +244,9 @@ img {
                 button {
                     color: rgb(255, 255, 255);
                     font-family: 'Roboto', sans-serif;
-                    font-size: 22px;
+                    font-size: 18px;
                     font-weight: 300;
-                    line-height: 26px;
+                    line-height: 22px;
                     letter-spacing: 0%;
                     display: flex;
                     align-items: center;
@@ -263,12 +263,12 @@ img {
                 margin-top: 15px;
                 border: 1px solid rgb(255, 255, 255);
                 width: 300px;
-                height: 70px;
+                height: 60px;
                 color: rgb(255, 255, 255);
                 font-family: 'Roboto', sans-serif;
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: 300;
-                line-height: 29px;
+                line-height: 25px;
                 letter-spacing: 10%;
                 text-transform: uppercase;
                 position: relative;
@@ -323,11 +323,11 @@ img {
     .modal_img {
         position: absolute;
         left: 348px;
-        top: 125px;
+        top: 60px;
         z-index: -1;
 
         img {
-            width: 1100px;
+            width: 1000px;
             height: auto;
             transform: rotateZ(-14deg);
             min-width: 1272px;
@@ -355,7 +355,7 @@ img {
     justify-content: space-between;
 
     .modal_img {
-        height: 800px;
+        height: 700px;
         right: 0;
 
         img {
@@ -380,7 +380,7 @@ img {
     justify-content: space-between;
 
     .modal_img {
-        height: 800px;
+        height: 700px;
 
         img {
             height: 100%;
@@ -397,31 +397,31 @@ img {
     }
 
     .modal_content {
-        padding: 50px;
+        padding: 40px;
         width: 538px;
 
         h3 {
             color: rgb(66, 70, 65);
             font-family: 'Roboto', sans-serif;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
-            line-height: 56px;
+            line-height: 40px;
             letter-spacing: 0%;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         ul {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin-bottom: 45px;
+            margin-bottom: 35px;
 
             li {
                 color: rgb(66, 70, 65) !important;
                 font-family: 'Roboto', sans-serif;
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 300;
-                line-height: 35px;
+                line-height: 30px;
                 letter-spacing: 10%;
             }
         }
@@ -429,7 +429,7 @@ img {
         .modal_form {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 15px;
             width: 300px;
 
             input {
@@ -438,9 +438,9 @@ img {
                 border: none;
                 color: rgb(153, 156, 153);
                 font-family: 'Roboto', sans-serif;
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 300;
-                line-height: 26px;
+                line-height: 20px;
                 letter-spacing: 0%;
                 padding-bottom: 15px;
                 border-bottom: 1px solid rgb(153, 156, 153);
@@ -453,16 +453,16 @@ img {
             .input_select {
                 display: flex;
                 align-items: center;
-                gap: 30px;
+                gap: 20px;
                 border-bottom: 1px solid rgb(153, 156, 153);
                 padding-bottom: 15px;
 
                 button {
                     color: rgb(66, 70, 65);
                     font-family: 'Roboto', sans-serif;
-                    font-size: 22px;
+                    font-size: 18px;
                     font-weight: 300;
-                    line-height: 26px;
+                    line-height: 20px;
                     letter-spacing: 0%;
                     display: flex;
                     align-items: center;
@@ -479,12 +479,12 @@ img {
                 margin-top: 15px;
                 border: 1px solid rgb(66, 70, 65);
                 width: 300px;
-                height: 70px;
+                height: 60px;
                 color: rgb(66, 70, 65);
                 font-family: 'Roboto', sans-serif;
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: 300;
-                line-height: 29px;
+                line-height: 25px;
                 letter-spacing: 10%;
                 text-transform: uppercase;
                 position: relative;
@@ -925,7 +925,6 @@ header.active {
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 180px;
     }
 
     .card_title_under {
@@ -1012,7 +1011,7 @@ header.active {
     .brid_cards {
         display: flex;
         align-items: stretch;
-        gap: 95px;
+        gap: 110px;
 
         .brid_card {
             flex: 1;
@@ -1028,7 +1027,7 @@ header.active {
 
         .brid_card_img {
             position: relative;
-            height: 450px;
+            height: 380px;
 
             .brid_bg {
                 @include transition();
@@ -1060,28 +1059,28 @@ header.active {
                 h6 {
                     color: rgb(255, 255, 255);
                     font-family: 'Playfair Display',sans-serif;
-                    font-size: 40px;
+                    font-size: 32px;
                     font-weight: 400;
-                    line-height: 53px;
+                    line-height: 40px;
                     text-transform: uppercase;
                 }
             }
         }
 
         .brid_card_text {
-            height: 145px;
+            height: 120px;
             padding: 20px 10px;
             border: 1px solid rgb(0, 0, 0);
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 10px;
 
             li {
                 color: rgb(0, 0, 0);
                 font-family: 'TT Firs Neue' ,sans-serif;
-                font-size: 20px;
+                font-size: 16px;
                 font-weight: 400;
-                line-height: 20px;
+                line-height: 18px;
                 padding-left: 25px;
                 position: relative;
 
@@ -1254,7 +1253,7 @@ header.active {
         position: relative;
 
         img {
-            height: 866px;
+            height: 600px;
             width: 100%;
             object-fit: cover;
             object-position: left top;
