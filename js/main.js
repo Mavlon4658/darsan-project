@@ -32,6 +32,15 @@ $(document).ready(function(){
       $(".media_menu").toggleClass("active")
       $("header").toggleClass("active")
     });
+
+    $('.header_bars').click(function () {
+        $('.media_menu').addClass('active')
+    })
+    
+    $('.media_menu__close').click(function () {
+        $('.media_menu').removeClass('active')
+
+    })
 });
 
 

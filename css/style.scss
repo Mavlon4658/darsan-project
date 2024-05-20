@@ -755,7 +755,7 @@ img {
     }
 }
 
-header {    
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -768,6 +768,14 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .header_nav_sm {
+        display: none;
+    }
+
+    .header_bars {
+        display: none;
     }
 
     .header_left {
@@ -842,6 +850,10 @@ header.active {
 
     .home_text {
         font-size: 60px;
+    }
+
+    .home_img_sm {
+        display: none;
     }
 
     .home_text_under {
