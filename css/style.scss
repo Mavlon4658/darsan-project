@@ -83,6 +83,12 @@ img {
             }
         }
     }
+
+    &.green {
+        background: linear-gradient(90deg, #25D366 0%, #39E77A 100%) !important;
+        color: #fff !important;
+        border: 0 !important;
+    }
 }
 
 .main_btn_black {
@@ -900,6 +906,7 @@ header.active {
         display: flex;
         align-items: center;
         gap: 10px;
+        margin-bottom: 180px;
     }
 
     .card_title_under {
@@ -1331,9 +1338,15 @@ footer {
         }
     }
 
+    .footer_icon {
+        justify-content: flex-start;
+        padding-left: 132px;
+    }
+
     .icons {
         display: flex;
         align-items: center;
+        flex-direction: row;
         gap: 8px;
 
         .social_media {
@@ -1416,6 +1429,7 @@ footer {
             .footer_top_in_right {
                 img {
                     height: 100%;
+                    object-fit: cover;
                 }
             }
         }

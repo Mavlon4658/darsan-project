@@ -233,6 +233,20 @@
     }
 
     footer {
+        .footer_top {
+            .main_container {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .footer_form {
+                margin-bottom: 0;
+                max-width: 100%;
+                width: 100%;
+                background-position: bottom right;
+            }
+        }
+
         .footer_top_right {
             .footer_top_right_in {
                 gap: 30px;
@@ -395,6 +409,10 @@
             .footer_top_right_two_right {
                 margin-top: 0;
             }
+        }
+
+        .footer_icon {
+            padding: 30px 20px 0;
         }
 
         .footer_bottom  {
