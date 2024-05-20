@@ -65,6 +65,7 @@
                 border: 1px solid grey;
                 margin-top: 20px;
                 position: static;
+                transform: translate(0);
             }
         }
     }
@@ -472,6 +473,12 @@
                     gap: 20px;
                 }
             }
+
+            ul {
+                li {
+                    font-size: 20px !important;
+                }
+            }
         }
 
         .card_titles {
@@ -563,6 +570,7 @@
             }
         }
     }
+    
 }
 
 @media only screen and (max-width: 576px) {

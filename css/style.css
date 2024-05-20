@@ -1375,6 +1375,7 @@ footer .footer_top_right_two p {
     border: 1px solid grey;
     margin-top: 20px;
     position: static;
+    transform: translate(0);
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -1682,6 +1683,9 @@ footer .footer_top_right_two p {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  }
+  .live_time .live_time_in ul li {
+    font-size: 20px !important;
   }
   .live_time .card_titles {
     flex-direction: column;
